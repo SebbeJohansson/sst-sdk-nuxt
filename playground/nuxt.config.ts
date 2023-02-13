@@ -1,4 +1,6 @@
 export default defineNuxtConfig({
   modules: ['../src/module'],
-  myModule: {}
+  sst: {
+    websiteId: '5620111',
+  }
 })
