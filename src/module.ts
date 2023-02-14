@@ -21,14 +21,10 @@ export default defineNuxtModule({
 
     const resolver = createResolver(import.meta.url);
 
-    // console.log(nuxt.options.publicRuntimeConfig);
     if (isNuxt2()) {
-      nuxt.options.publicRuntimeConfig.sst = options;
-      console.log(nuxt.options.publicRuntimeConfig);
       addPlugin(resolver.resolve('./runtime/plugin.vue2'));
     } else {
       nuxt.options.runtimeConfig.public.sst = options;
-      console.log(nuxt.options.runtimeConfig);
       addPlugin(resolver.resolve('./runtime/plugin.vue3'));
     }
   }
