@@ -9,7 +9,8 @@ Find and replace all on all files (CMD+SHIFT+F):
 
 # Symplify Server-Side Testing SDK for Nuxt
 
-[![npm version][npm-version-src]][npm-version-href]&nbsp;&nbsp;&nbsp;[![npm downloads][npm-downloads-src]][npm-downloads-href]&nbsp;&nbsp;&nbsp;[![License][license-src]][license-href]
+[![npm version][npm-version-src]][npm-version-href]&nbsp;&nbsp;&nbsp;[![npm downloads][npm-downloads-src]][npm-downloads-href]&nbsp;&nbsp;&nbsp;[![License][license-src]][license-href]&nbsp;&nbsp;&nbsp;
+
 <a href="https://www.buymeacoffee.com/sebbejohansson"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a Monster&emoji=🐉&slug=sebbejohansson&button_colour=000000&font_colour=48e704&font_family=Bree&outline_colour=48e704&coffee_colour=48e704" height="40px"/></a>
 
 > [sst-sdk-nodejs](https://github.com/SymplifyConversion/sst-sdk-nodejs) wrapper for nuxt
